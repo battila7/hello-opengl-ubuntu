@@ -65,4 +65,7 @@ A sikeres fordítás-futtatás előtt telepítenünk kell a megfelelő library-k
 7. Kész! Most már képesek vagyunk OpenGL-t és GLFW-t használó programok fordítására és futtatására.
 
 ## Bővítés
-További `.cpp` fájlokkal történő bővítés esetén a megfelelő `.cpp` fájlhoz tartozó `.o` fájlt hozzá kell adni a `Makefile` `OBJS` változójához. Ezen kívül nincs más teendőnk.
+További `.cpp` fájlokkal történő bővítés esetén a megfelelő `.cpp` fájlhoz tartozó `.o` fájlt hozzá kell adni a `Makefile` `OBJS` változójához. További header fájlok hozzáadása esetén érdemes egy `DEPS` változó felvétele, mely tartalmazza a header fájlok neveit. Ezután ezt hozzáadhatjuk a `hello` célhoz, így a header fájlok megváltozása esetén is újrafordításra kerül a projekt.
+
+Bonyolultabb projekt esetén érdemes egy Make leírást/könyvet/tutorialt is átlapozni.
+
