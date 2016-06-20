@@ -63,3 +63,6 @@ A sikeres fordítás-futtatás előtt telepítenünk kell a megfelelő library-k
   ![Make Install](https://2tlhfg-bn1306.files.1drv.com/y3mEvLuLbNOB607KOgk9Y0SWx6bxAk1H-YiC1R-fhPy8Qw8sisdieNFZFzS2p3iJpC3kw8C-hKxIF9WH0Q8s6bhIuhbYsWaIRa5AWhncEzfgZLwXDA7YtC_3fe93d2vn82I_y8rjbgNoNQOhQ5uDRjlVxSvCyO_DDKjY4pW_71A0eU?width=660&height=495&cropmode=none)
 
 7. Kész! Most már képesek vagyunk OpenGL-t és GLFW-t használó programok fordítására és futtatására.
+
+## Bővítés
+További `.cpp` fájlokkal történő bővítés esetén a megfelelő `.cpp` fájlhoz tartozó `.o` fájlt hozzá kell adni a `Makefile` `OBJS` változójához. Ezen kívül nincs más teendőnk.
