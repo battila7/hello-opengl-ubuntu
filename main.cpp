@@ -1,4 +1,4 @@
-#include <GLFW\glfw3.h>
+#include <GLFW/glfw3.h>
 
 const int kWindowWidth = 640;
 const int kWindowHeight = 480;
