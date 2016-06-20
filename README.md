@@ -10,7 +10,7 @@ A repository tartalma felhasználható kiindulásként különböző projektek e
   ``
   parancs segítségével.
 
-2. Lépjünk a ``hello-opengl-ubuntu mappába`` és használjuk a ``make`` parancsot a fordításhoz.
+2. Lépjünk a ``hello-opengl-ubuntu`` mappába és használjuk a ``make`` parancsot a fordításhoz.
 3. A Make sikeres futását követően a ``./hello.out`` paranccsal futtathatjuk a projektet.
 
 ![Használat](https://2tiscg-bn1306.files.1drv.com/y3mXixk4pfhs_fB2Lq8mxG8_JJXXqbFaIuRm5buxw5MApkHGfQmXbiPc-suW4ELO9cNGQoNKF5v6Rqga6Ln1zUiZysn0-D13pl1QQfF6J8Hg0V-slG9Se0ERCiiCIpnC-zFXCEcDfs25DmwBVsSGlvAdb9Ss6ZbupjOWbVlHVKnNkY?width=660&height=495&cropmode=none)
