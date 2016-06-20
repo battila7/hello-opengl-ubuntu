@@ -55,7 +55,7 @@ void init()
   // Specifies the RGBA value used by glClear()
   glClearColor(1.0, 1.0, 1.0, 0.0);
 
-	// Set the current matrix mode. The argument specifies which matrix
+  // Set the current matrix mode. The argument specifies which matrix
   // stack will be the target of the subsequent matrix operations.
   glMatrixMode(GL_PROJECTION);
 
