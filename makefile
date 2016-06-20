@@ -6,12 +6,10 @@ LDLIBS = -lglfw3 -lGL -lGLU -lX11 -lXrandr -lXxf86vm -lpthread -ldl -lXcursor -l
 OBJS = main.o
 
 hello: $(OBJS)
-
-hello:
-	$(CXX) $(CXXFLAGS) $^ -o $@
+	$(CXX) $(CXXFLAGS) $^ -o $@.out $(LDLIBS)
 
 %.o: %.c
 	$(CXX) $(CXXFLAGS) -c $<
 
 clean:
-	$(RM) hello *.o *~
+	$(RM) hello.out *.o *~
