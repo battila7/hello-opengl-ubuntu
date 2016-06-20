@@ -1,7 +1,7 @@
 # Hello OpenGL Ubuntu
 Minta OpenGL projekt a DE IK PTI Bevezetés a számítógépi grafikába tárgy feladataihoz.
 
-A repository tartalma felhasználható kiindulásként különböző projektek elkészítéséhez Ubuntun operációs rendszeren.
+A repository tartalma felhasználható kiindulásként különböző projektek elkészítéséhez Ubuntu (15.10) operációs rendszeren.
 
 ## Használat
 1. Klónozzuk a repository tartalmát a
@@ -25,7 +25,7 @@ A sikeres fordítás-futtatás előtt telepítenünk kell a megfelelő library-k
 
   ![CMake](https://cxv6mq-bn1306.files.1drv.com/y3mkFfFXaQZQ3crAAjTmVLsWZvAK8YsQZvk2VpazG0eKA8M_gM5vfUKSFrqwK8xow0Ycpv1n-sQbCSBUxc0sDY9y_4s5TbldjfdYUpL6H_z-54fYKfk2S3v7zFSZztcsoxP_GFv59C426uBpk2AhAxo3p4XQ4eR2c9Yconf48SYQNc?width=660&height=495&cropmode=none)
   
-2. Klónozzuk a GLFW repository-t
+2. Klónozzuk a GLFW repository-t.
    ~~~~
    git clone https://github.com/glfw/glfw
    ~~~~
